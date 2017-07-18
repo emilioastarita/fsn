@@ -1,0 +1,28 @@
+{
+  "name": "File System Notifier",
+  "version": "0.0.1",
+  "description": "Notify filesystem changes to your dev enviroment. Watch locally and notify to a remote server.",
+  "author": "Emilio Astarita",
+  "licence": "MIT",
+  "bin": {
+    "fsn-toucher": "./bin/fsn-toucher",
+    "fsn-watcher": "./bin/fsn-watcher"
+  },
+  "keywords": [
+    "watch",
+    "vagrant",
+    "docker",
+    "notify",
+    "filesystem",
+    "file changes"
+  ],
+  "dependencies": {
+    "chokidar": "^1.7.0",
+    "commander": "^2.11.0",
+    "json-socket": "^0.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:emilioastarita/fsn.git"
+  }
+}
