@@ -1,5 +1,5 @@
 {
-  "name": "File System Notifier",
+  "name": "file-system-notifier",
   "version": "0.0.1",
   "description": "Notify filesystem changes to your dev enviroment. Watch locally and notify to a remote server.",
   "author": "Emilio Astarita",
